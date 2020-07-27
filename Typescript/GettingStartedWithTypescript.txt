@@ -1,0 +1,11 @@
+Setting up for Typescript
+
+1. node -v    -> Check version of node installed in pc in cmd prompt
+2. npm install -g Typescript     -> Install typescript. npm stands for "node package manager"
+3. tsc -v    -> check the version of typescript
+4. code .   -> This command is to open the folder in visual studio code
+5. Ctrl + `  -> To open integrated terminal in visual studio code
+6. tsc <file>   -> To compile the typescript code into plain javascript. tsc stands for "TypeScript Compiler"
+7. node <file.js>   -> To run transpiled(compiled) typescript filed. We run the java script file.
+8. tsc <file> --watch    -> To autocompile .ts file whenever there is change in it.
+9. Open a new terminal to run node <file.js> whenever one teminal is busy watching th changes

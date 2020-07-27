@@ -1,0 +1,14 @@
+- Typescript is superset of javascript. Objective C is superset of C.
+- Typescript was created by Microsoft
+- A module has its on scope but script have golbal scope.
+- by adding export statement typescript/javascript treats .js file as module and not a script.
+- javascript has only global and function scope , there is no block scope.
+- typescript encorages declaring the variables using let and const.
+- javascript  you can redeclare the variables, let and const declararation prevent this.
+
+
+
+Decorators:
+- Can be attached to class, method, accessors,  property and class parameters
+- Annotations and meta-programming syntax
+
