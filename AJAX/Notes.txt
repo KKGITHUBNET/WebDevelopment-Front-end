@@ -1,0 +1,21 @@
+AJAX - Asynchronous JavaScript and XML
+It is not language, framework or library. 
+it is just a web technology send and receive data to and from client and server.
+Need not to reload the page.
+xml is rarely used. JSON is used primarily.
+
+
+XmlHttpRequest(XHR) object:
+- API in form of object
+- all modern browsers have this API
+- method transfer data between browser and server
+- can be used with protocols other than http
+
+library and other methods
+- jQuery (DOM manupulation library)
+- AXIOS is slim library for ajax
+- Fetch API (part of browser.. new)
+- Node HTTP (Need to install node explicitly)
+
+
+xampp/htdocs is server folder

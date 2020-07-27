@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax 4 - PHP</title>
+</head>
+<body>
+    <button id="button1">Get PHP Data</button>
+
+    <script>
+        document.getElementById('button1').addEventListener('click',getName)
+
+        function getName()
+        {
+            var xhr = new XMLHttpRequest()
+            xhr.open('GET','process.php>name=Keval', true)
+            // php will not work in regular browser. we need xampp server with php service 
+
+            xhr.onload = function(){
+                console.log(this.responseText)
+            }
+
+            xhr.send()
+        }
+
+        
+
+    </script>
+</body>
+</html>

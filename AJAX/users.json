@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "name" : "Keval",
+        "email" : "kjk44@njit.edu"
+    
+    },
+    {
+        "id": 2,
+        "name" : "Prashant",
+        "email" : "pb498@njit.edu"
+    
+    },
+    {
+        "id": 3,
+        "name" : "Abhay",
+        "email" : "ab098@njit.edu"
+    
+    }
+
+]
