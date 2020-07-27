@@ -1,0 +1,150 @@
+<!DOCTYPE html>   <!-- official doctype for HTML-5 -->
+
+<html>
+	<head>
+		<title> HTML Cheat Sheet </title>
+		<style type="text/css">
+			
+			h2{
+				color:blue;
+			  } 
+		</style>  <!-- This is internal style of css, also not advised -->
+	</head>
+	<body>
+		<a href="blog.html">Go to Blog</a>
+		<!-- Headings -->
+		<h1 style="color:red">Heading 1</h1>  <!-- style inline is not advised -->
+		<h2>Heading 2</h2>
+		<h3>Heading 3</h3>
+		<h4>Heading 4</h4>
+		<h5>Heading 5</h5>
+		<h6>Heading 6</h6>
+
+		<!-- paragraph -->
+		<p>google web page <a href="http://google.com" target="_blank">here</a></p>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation <strong>ullamco laboris</strong> nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat <strong><em>nulla pariatur</em></strong>. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+		</p>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		<!-- Lists -->
+		<ul>  <!-- unordered lists -->
+			<li>List Item 1</li>
+			<li>List Item 2</li>
+			<li>List Item 3</li>
+			<li>List Item 4</li>
+		</ul>
+		<ol>  <!-- ordered lists -->
+			<li>List Item 1</li>
+			<li>List Item 2</li>
+			<li>List Item 3</li>
+			<li>List Item 4</li>
+		</ol>
+
+		<!-- Table : Using table for layout is not advised-->
+		<table>
+			<thead> <!-- table head -->
+				<tr> <!-- table row -->
+					<th>Name</th> <!-- table row head --> 
+					<th>Email</th>
+					<th>Age</th>
+					
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Keval Kavle</td>
+					<td>kjk44@njit.edu</td>
+					<td>31</td>	
+				</tr>
+				<tr>
+					<td>Sarah</td>
+					<td>sarah@njit.edu</td>
+					<td>31</td>	
+				</tr>
+				
+			</tbody>
+
+		</table>
+		<!-- <div style="margin-top: 500px"> </div> --> 
+		<br>
+		<hr>
+		<br>
+		<br>
+	 	
+	 	<!-- Forms -->
+	 	<form action="test.js"> <!-- action attribute: submit the form to certain page action="register.js" method = "POST"(add data to the database etc) GET - you see that data filled in url and is not secure so POST is used-->
+	 	<div>
+	 		<!-- label and input are inline tags so to seperate them vertically we need to wrap them in div -->
+	 		<label>First Name</label>
+	 		<input type="text" name="firstName" placeholder="Enter Your Name"> 
+	 	</div>
+	 	<br>
+	 	<div>
+	 		<label>Last Name</label>
+	 		<input type="text" name="lastName" placeholder="Enter Your Last Name">
+	 	</div>
+	 	<br>
+	 	<div>
+	 		<label>Email</label>
+	 		<input type="email" name="email" placeholder="Enter Email"> <!-- email type is built in -->
+	 	</div>
+	 	<br>
+	 	<div>
+	 		<label>Message</label>
+	 		<textarea name ="Message"></textarea>
+	 	</div>
+	 	<br>
+	 	 <div>
+	 		<label>gender</label>
+	 		<select name ="gender">
+	 			<option value="male">Male</option>
+	 			<option value="female">Female</option>
+	 		</select>
+	 	</div>
+	 	<br>
+	 	<div>
+	 		<label>Age</label>
+	 		<input type="number" name ="age" value = "31">
+	 	</div>
+	 	<br>
+	 	<div>
+	 		<label>Birthday</label>
+	 		<input type="date" name ="birthday">
+	 	</div>
+	 	<div>
+	 		<input type="submit" name="submit" value="Submit">
+	 	</div>
+
+	 	</form>
+	 	<!-- Buttom -->
+	 	<button>Click Me</button> <!-- argument "click =" to invoke any js script -->
+	 	<br>
+	 	<!-- Image -->
+	 	<a href="images/pic.jpg">
+	 		<img src="images/pic.jpg" alt= "Image Not Found" 
+	 		width="500">
+	 	</a>
+
+	 	<!-- Quotations(could be found in source code and not in browser) block,abbreviate and cite-->
+	 	<blockquote cite="http://google.com"> 
+	 		Sample Text
+	 	</blockquote>
+	 	<p>The <abbr title="World Wide Web">www</abbr> is awesome</p>
+	 	<p><cite>HTML5</cite> coding </p>
+
+	</body>
+
+</html>
