@@ -1,0 +1,35 @@
+Node.JS
+ - JavaScript Runtime (Not a language or framework)
+ - Built on V8 JavaScript Engine (Same as google chrome)
+ - Written in C++
+ - Essentially allows us to run JavaScript code on Server
+ - Not so useful with CPU intensive apps(long running cals). for that specialised java, python back end is recommended
+ - Supports many concurrent connections
+ - Works  on single thread using non-blocking I/O calls
+ - Rest API and Microservices
+ - Real time services (Chat,Live Updates)
+ - CRUD apps - Blogs, shopping carts, social network
+ - Goes well with MongoDB
+
+Event Loop
+ - Single threaded
+ - EventEmitter class is used to bind events and listeners
+	
+
+NPM
+ - Installs third party packages(framework, libraries, tools etc)
+ - npm : node package manager
+ - packages get stored in "node_modules" folder
+ - all dependencies are listed in a "package.json" file
+ - npm init : generates package.json file
+ - npm install express : installs a package locally
+ - npm scripts can be created to run certain tasks such as run a server etc.
+ - npm install -f nodemon  : installs package globally
+ 
+Node Modules
+ - Node Core Modules - path, http, fs
+ - Custom Modules - file
+		- const path = require('path')
+		- const myFile = require('./myFile')
+ - Node comes with "read eval print loop REPL" which allows javascript program to be run directly in console.
+ 

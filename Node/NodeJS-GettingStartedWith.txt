@@ -1,0 +1,22 @@
+1. npm init   - creates the package.json file
+2. entry point - index.js, app.js, server.js
+3. npm install - this installs all the modules/packages listed in package.json on server where install command is carried out
+4. npm install uuid - This creates node_modules folder and package.json is updated with uuid package dependencies
+5. npm install --save-dev nodemon  / npm install -D nodemon   :  we don't have to refresh the server
+6. npm install    -> delete node_modules folder and run this command. all the dependencies will be loaded.
+7. node <file.ext>  or node <file>   -> to run it from command line/terminal
+8. "dev": "nodemon index"   -> adding nodemon command in package.json
+9. npm run dev   -> to run above commmand which will start the server and monitor for any changes/updates
+10. Install heroku
+11. heroku --version
+12. heroku login
+13. Install git scm
+14. .gitignore : create this file to ignore the files
+15. git --version
+15. git init
+16. git add .
+17. git commit -m 'Initial Commit'
+18. heroku create
+19. Go to heroku webpage -> click the app domain -> Deploy -> "$ heroku git:remote -a safe-bayou-69610" run this command
+20. git push heroku master
+21. heroku open -> This opens the app in the browser
