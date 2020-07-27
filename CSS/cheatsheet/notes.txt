@@ -1,0 +1,45 @@
+Three ways to add css to html
+	1. Inline css : directly in the html element
+	2. Internal css : using <style> tags within a single document
+	3. External css : linking an external .css file
+
+
+
+
+Basic CSS syntax : 
+selector{
+			property: value; 
+		}
+
+
+Box Model CSS :
+
+content : can be any tag like a,div etc
+margin  : spacinig outside the border
+padding : space in between that element and edge(inside space of the box plot)
+
+Shorthand syntax :
+p
+{
+	margin : top right bottom left
+}
+
+or 
+
+p
+{
+	margin-top: 10px;	
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+
+
+positioning :
+	- static
+	- relative
+	- absolute
+	- fixed
+	- initial
+	- inherit

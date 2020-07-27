@@ -1,0 +1,228 @@
+/*
+*{
+	margin: 0;
+	padding: 0;
+}   all elements */
+
+body{
+	background-color: #f4f4f4;
+	color: #555555;
+
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight:normal;	
+	/* same as above 
+	font:normal 20px Arial,Helvetica,sans-serif; */
+	line-height: 1.6em; /* we can use pixel (px). em is used in more responsive style of coding*/
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color:black;
+}
+
+a:hover{
+ 	color: red;
+}
+
+a:active{
+	color:green;
+}
+
+/*
+a:visited{
+	color:blue;
+}
+*/
+
+.button{
+	background-color: #333;
+	color:#fff;
+	padding:5px 5px;
+	border:none;
+	border-radius: 10px;
+}
+
+.button:hover{
+	background: red;
+	color:#fff;
+}
+
+.clr{
+	clear: both;
+}
+
+.container{
+	/*width: 500px; /*#960 is popullar. but using percentage is responsive in nature and adjusts according to screen size*/
+	width: 50%;
+
+	margin:auto;
+}
+
+.box-1{
+		background-color: #333
+		color:#fff;
+
+		border-right: 3px red solid;
+		border-bottom: 5px red solid;
+		border-right-style: dotted;
+		border-bottom-style: double;
+		width: 80%;
+		margin:auto;
+
+		
+
+		/*
+		border:5px red solid;  either use above sepearate bordering or overall shorthand notation
+		*/
+
+		padding-right: 20px
+		margin:20px 0; /* 0 is for right and left. so only top and bottom margin is added*/ 
+
+
+	  }
+
+
+.box-1 h1{
+
+	font-family: Tahoma;
+	font-weight: 800;
+	font-style: Italic;
+	text-decoration: underline;
+	/*text-transform: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;*/
+}
+
+.box-2{
+
+	border:3px dotted #ccc;
+	padding:50px;
+	margin:100px;
+}
+
+.categories{
+	border:1px #ccc solid;
+	padding:10px;
+	border-radius: 15px;
+}
+
+.categories h2{
+	text-align: center;
+}
+
+.categories ul{
+
+	padding: 15px;
+	list-style: square;
+	/*list-style: none;*/
+
+}
+
+.categories li{
+	border-bottom:dotted
+	padding-bottom:6px;
+	/*list-style-image: url(images/check.png);*/
+	
+}
+
+
+.my-form{
+	padding:20px;
+}
+
+.my-form .form-group{
+	padding:15px;
+}
+
+.my-form label{
+	display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+	padding: 8px;
+	width:100%;
+}
+
+.my-form input[class="button"]{
+	background-color: #333;
+	color:#fff;
+	padding:10px 15px;
+	border:none;
+	border-radius: 10px;
+
+}
+
+.block{
+	float:left;
+	width: 33.2%;
+	border:1px solid #ccc;
+	box-sizing: border-box; /* first adds borders and padding then resizes according to width*/
+}
+
+
+#main-block{    /* # is beacuse it is an id and not class */
+
+	float:left;
+	width: 70%;
+	box-sizing: border-box;
+}    
+
+#sidebar{    /* # is beacuse it is an id and not class */
+
+	float:right;
+	width: 30%;
+	background-color: #333;
+	color:white;
+	padding:15px;
+	box-sizing: border-box;
+}    
+
+.p-box{
+	width: 800px;
+	height: 500px;
+	border:1px solid #000;
+	margin-top: 30px;
+	position: relative;
+	background-image: url(images/bgimage.jpg);
+	/*background-position: 100px 200px;*/
+	background-repeat: no-repeat;
+	background-position: center 200px; 
+}
+
+
+.p-box h1{
+	/*position: absolute; /* this will go to top of the browser so need to set it to relative*/
+	position: absolute;
+	top:190px;
+}
+
+
+.p-box h2{
+	position: absolute;
+	bottom:250px;
+	right:400px;
+}
+
+.fix-me{
+	position: fixed;
+	bottom: 100px;
+}
+
+
+.my-list li:first-child{
+	background:  red;
+}
+
+.my-list li:nth-child(3) {
+	background:  blue;
+}
+
+.my-list li:last-child{
+	background:  green;
+}
+
+.my-list li:nth-child(even){
+	background:  grey;
+}
