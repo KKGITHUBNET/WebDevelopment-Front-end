@@ -1,0 +1,5 @@
+JavaScript Promises
+
+			Promises
+			   /\
+		Resolve  Reject

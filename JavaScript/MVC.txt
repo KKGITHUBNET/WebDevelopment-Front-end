@@ -1,0 +1,27 @@
+MVC - Model View Coatainer
+
+
+Common 
+ - Model and View never interact with each other
+ - Any interaction between mdel and view is carried out via controller
+ 
+Controller
+ - User request a particular page from the server.
+ - handles the request flow and tells the rest of the server what to do with the request
+ - Acts as a middle-man for model and view 
+ - Controller should not contain much of the code/logic.
+ - Controller asks the model to get the data based on the request
+ - never interacts with the data and uses model to interact with the data
+ - Failure and Success request logic is coded in controller
+ 
+ Model 
+ - Model is responsible for handling all the data logic of the request
+ - Interacts with tht database for CRUD operations
+ - Model ddoes not have to worry about the faailure and success of the requests
+ 
+ View 
+ - Representation layer
+ - renders the view for the user
+ - how to present the information the controller sends it
+ - This is template file that dynamically renders the html file
+
