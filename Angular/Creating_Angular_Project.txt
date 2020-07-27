@@ -1,0 +1,16 @@
+Creating Angular Project
+
+
+1. Install Node
+2. npm --version      -> to check the node version(cmd command)
+3. npm install -g @angular/cli
+4. ng --version   -> to check angular version
+5. ng new angular-crash-todolist
+            - ng new <folder>
+            - add angular routing? y
+            - stylesheet(CSS)
+6. ng serve --open        -> to open angular server
+7. ng generate component <folder>/<component_name>    -> to generate component  ng generate component component/todos 
+8. ng g c <folder/component_name>                     -> Short notation for generating the component.
+9. ng g s <folder/service_name>    -> generate service
+10. ng build   -> Build the Project. This creates dist folder.. we can deplot dist folder to web host. All the code will reside in main.js file
